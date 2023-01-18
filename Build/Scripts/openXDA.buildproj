@@ -111,7 +111,7 @@
   <Target Name="BeforeBuildProjects">
     <ItemGroup>
       <!--List of projects to build.-->
-      <ProjectsToBuild Include="$(ProjectSolution)"/>
+      <ProjectsToBuild Include="$(LocalFolder)\$(ProjectSolution)"/>
     </ItemGroup>
   </Target>
 
