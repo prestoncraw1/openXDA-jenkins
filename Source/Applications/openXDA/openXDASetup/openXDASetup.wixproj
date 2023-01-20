@@ -329,9 +329,9 @@
 	  <TestFolder Condition="'$(TestFolder)' == ''">C:\test\openXDA-jenkins\Build\Output\Release\Libraries</TestFolder>
     </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>Test-Path -Path C:\test\openXDA-jenkins\Build\Output\Release\Libraries\openHistorian.XDALink.SqlClr.dll -PathType Leaf</PreBuildEvent>
-   <!-- <PreBuildEvent>"$(SolutionDir)Tools\SqlClrAssemblyEncoder\bin\$(ConfigurationName)\SqlClrAssemblyEncoder.exe" -o %27$(ProjectDir)\obj\SqlClr.wxi%27 %27$(SolutionDir)\Dependencies\openHistorian\GSF.Core.SqlClr.dll%27 %27$(SolutionDir)\Dependencies\openHistorian\GSF.SortedTreeStore.SqlClr.dll%27 %27$(SolutionDir)\Dependencies\openHistorian\openHistorian.Core.SqlClr.dll%27 %27$(SolutionDir)\Dependencies\openHistorian\openHistorian.SqlClr.dll%27 %27$(TestFolder)\openHistorian.XDALink.SqlClr.dll%27 %27$(TestFolder)\openXDA.SqlClr.dll%27</PreBuildEvent>
-  --></PropertyGroup>
+    <!--<PreBuildEvent>Test-Path -Path C:\test\openXDA-jenkins\Build\Output\Release\Libraries\openHistorian.XDALink.SqlClr.dll -PathType Leaf</PreBuildEvent>
+    --><PreBuildEvent>"$(SolutionDir)Tools\SqlClrAssemblyEncoder\bin\$(ConfigurationName)\SqlClrAssemblyEncoder.exe" -o %27$(ProjectDir)\obj\SqlClr.wxi%27 %27$(SolutionDir)\Dependencies\openHistorian\GSF.Core.SqlClr.dll%27 %27$(SolutionDir)\Dependencies\openHistorian\GSF.SortedTreeStore.SqlClr.dll%27 %27$(SolutionDir)\Dependencies\openHistorian\openHistorian.Core.SqlClr.dll%27 %27$(SolutionDir)\Dependencies\openHistorian\openHistorian.SqlClr.dll%27 %27$(TestFolder)\openHistorian.XDALink.SqlClr.dll%27 %27$(TestFolder)\openXDA.SqlClr.dll%27</PreBuildEvent>
+  </PropertyGroup>
   <!--
 	To modify your build process, add your task inside one of the targets below and uncomment it.
 	Other similar extension points exist, see Wix.targets.
