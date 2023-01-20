@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{B3493118-9437-497D-A716-24232CE0D4F2}"
 EndProject
@@ -94,6 +94,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openXDAConsole", "Applicati
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "openXDASetup", "Applications\openXDA\openXDASetup\openXDASetup.wixproj", "{36380070-81B6-4D71-A80A-C5AE76B0E357}"
 	ProjectSection(ProjectDependencies) = postProject
+		{674F09A7-4477-4CED-90F6-B7512886BC74} = {674F09A7-4477-4CED-90F6-B7512886BC74}
 		{CE674B18-F140-47E4-A22C-8E7C37FAA974} = {CE674B18-F140-47E4-A22C-8E7C37FAA974}
 	EndProjectSection
 EndProject
