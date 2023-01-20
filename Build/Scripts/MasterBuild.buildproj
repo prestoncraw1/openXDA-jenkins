@@ -291,7 +291,7 @@
       <LocalFolder Condition="'$(LocalFolder)' == ''">C:\test\openXDA-jenkins</LocalFolder>
       <BuildFlavor Condition="'$(BuildFlavor)' == ''">Release</BuildFlavor>
       <BuildTarget Condition="'$(BuildTarget)' == ''">Any CPU</BuildTarget>
-      <BuildInParallel Condition="'$(BuildInParallel)' == ''">True</BuildInParallel>
+      <BuildInParallel Condition="'$(BuildInParallel)' == ''">False</BuildInParallel>
       <BuildOutputFolder Condition="'$(BuildOutputFolder)' == ''">$(LocalFolder)\Build\Output\$(BuildFlavor)</BuildOutputFolder>
       <BuildInteractive Condition="'$(BuildInteractive)' == ''">true</BuildInteractive>
       <VersionFile Condition="'$(VersionFile)' == ''">$(LocalFolder)\Build\Scripts\$(ProjectName).version</VersionFile>
